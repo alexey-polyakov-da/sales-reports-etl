@@ -77,8 +77,7 @@ def process_files(src_folder, dest_folder):
 
 # Этот блок выполняется только при прямом запуске скрипта
 if __name__ == '__main__':
-
-    src_folder = 'reports-main'
-    dest_folder = 'comb_reports'
+    src_folder = 'sample_data'
+    dest_folder = 'output'
 
     process_files(src_folder, dest_folder)
